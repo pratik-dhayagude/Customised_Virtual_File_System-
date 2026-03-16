@@ -100,17 +100,22 @@ Maintains mapping between file descriptor and file table.
 	•	Demonstrates Linux file handling concepts
 	•	Useful for system programming practice
 	•	Lightweight implementation
+
 8.Limitations
 	•	Works only in memory (RAM).
 	•	Data is lost when program exits.
 	•	Limited file size and file count.
+
 9.Future Improvements
+
 	•	Add persistent storage using disk files
 	•	Implement directory structure
 	•	Support multi-user access
 	•	Implement file encryption
 	•	Add GUI interface
+
 10.Applications
+
 	•	Operating system learning
 	•	Linux system programming practice
 	•	Educational demonstration of file system concepts

@@ -19,16 +19,24 @@ It provides a command-line shell interface 🧑‍💻 where users can perform f
 ✨ It acts like a mini operating system file system, but everything runs in memory (RAM) instead of disk.
 
 📌 The system mimics real OS concepts like:
+
 	•	Inodes 🧠
+
 	•	File tables 📋
+
 	•	Superblock ⚙️
+
 	•	File descriptors 🔢
+
 
 🎯 Objectives :
 
 🎓 Learn core Operating System concepts
+
 ⚙️ Understand file system architecture
+
 🧩 Implement system calls & data structures
+
 🖥️ Simulate Linux file handling commands
 
 🏗️ System Architecture :
@@ -75,31 +83,38 @@ Command
 Description
 📂 create
 Create new file
+
 📖 read
 Read file content
+
 ✍️ write
 Write data into file
+
 ❌ rm
 Delete file
+
 📑 open
 Open file
+
 🔒 close
 Close file
+
 📋 ls
 List files
+
 📊 stat
 File information
 
-⚙️ Working Flow :
 
+⚙️ Working Flow :
 1️⃣ User enters command in shell
 2️⃣ Command is parsed
 3️⃣ Appropriate function is called
 4️⃣ File system structures are updated
 5️⃣ Output is displayed
 
-🧬 Internal Design Concepts :
 
+🧬 Internal Design Concepts :
 💡 This project uses:
 	•	Linked Lists 🔗 (for inode management)
 	•	Arrays 📊 (for file tables)
@@ -108,23 +123,23 @@ File information
 
 📌 A file system acts as an interface between OS and storage, organizing data into manageable units.  ￼
 
-🚀 Advantages :
 
+🚀 Advantages :
 ✅ No actual disk required (RAM-based)
 ✅ Fast execution ⚡
 ✅ Helps in OS & System Programming learning
 ✅ Simulates real-world file system behavior
 
-🔮 Future Enhancements :
 
+🔮 Future Enhancements :
 🌐 Add GUI interface (like file explorer)
 💾 Add disk-based persistence
 🔐 Add file permissions & security
 📦 Support directories (folders)
 🧵 Multi-threading support
 
-📌 Conclusion :
 
+📌 Conclusion :
 🎯 The Customised Virtual File System project is a powerful educational tool that demonstrates how real operating systems manage files internally.
 
 It bridges the gap between:

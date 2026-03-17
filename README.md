@@ -51,6 +51,7 @@ Data Structures (Inode, File Table, Superblock)
         ↓
 RAM (Virtual Storage)
 
+
 🧠 Core Components :
 
 1️⃣ Superblock ⚙️
@@ -75,12 +76,14 @@ RAM (Virtual Storage)
 	•	Maps file descriptors to files
 	•	Similar to Linux file descriptor system
 
+
 🧾 Features
 
 ✨ Linux-like commands:
 
 Command
 Description
+
 📂 create
 Create new file
 
@@ -107,6 +110,7 @@ File information
 
 
 ⚙️ Working Flow :
+
 1️⃣ User enters command in shell
 2️⃣ Command is parsed
 3️⃣ Appropriate function is called
@@ -115,6 +119,7 @@ File information
 
 
 🧬 Internal Design Concepts :
+
 💡 This project uses:
 	•	Linked Lists 🔗 (for inode management)
 	•	Arrays 📊 (for file tables)
@@ -125,6 +130,7 @@ File information
 
 
 🚀 Advantages :
+
 ✅ No actual disk required (RAM-based)
 ✅ Fast execution ⚡
 ✅ Helps in OS & System Programming learning
@@ -132,6 +138,7 @@ File information
 
 
 🔮 Future Enhancements :
+
 🌐 Add GUI interface (like file explorer)
 💾 Add disk-based persistence
 🔐 Add file permissions & security
@@ -140,6 +147,7 @@ File information
 
 
 📌 Conclusion :
+
 🎯 The Customised Virtual File System project is a powerful educational tool that demonstrates how real operating systems manage files internally.
 
 It bridges the gap between:

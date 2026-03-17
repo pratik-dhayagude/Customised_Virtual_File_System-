@@ -7,9 +7,13 @@
 It provides a command-line shell interface 🧑‍💻 where users can perform file operations like:
 
 📂 Create files
+
 📄 Read / Write files
+
 🗑️ Delete files
+
 📑 Open / Close files
+
 📊 Manage file descriptors
 
 ✨ It acts like a mini operating system file system, but everything runs in memory (RAM) instead of disk.

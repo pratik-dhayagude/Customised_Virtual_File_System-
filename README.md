@@ -20,14 +20,14 @@ It provides a command-line shell interface 🧑‍💻 where users can perform f
 	•	Superblock ⚙️
 	•	File descriptors 🔢
 
-🎯 Objectives
+🎯 Objectives :
 
 🎓 Learn core Operating System concepts
 ⚙️ Understand file system architecture
 🧩 Implement system calls & data structures
 🖥️ Simulate Linux file handling commands
 
-🏗️ System Architecture
+🏗️ System Architecture :
 
 User (Shell Commands)
         ↓
@@ -39,7 +39,7 @@ Data Structures (Inode, File Table, Superblock)
         ↓
 RAM (Virtual Storage)
 
-🧠 Core Components
+🧠 Core Components :
 
 1️⃣ Superblock ⚙️
 	•	Stores metadata of the file system
@@ -86,7 +86,7 @@ List files
 📊 stat
 File information
 
-⚙️ Working Flow
+⚙️ Working Flow :
 
 1️⃣ User enters command in shell
 2️⃣ Command is parsed
@@ -94,7 +94,7 @@ File information
 4️⃣ File system structures are updated
 5️⃣ Output is displayed
 
-🧬 Internal Design Concepts
+🧬 Internal Design Concepts :
 
 💡 This project uses:
 	•	Linked Lists 🔗 (for inode management)
@@ -104,14 +104,14 @@ File information
 
 📌 A file system acts as an interface between OS and storage, organizing data into manageable units.  ￼
 
-🚀 Advantages
+🚀 Advantages :
 
 ✅ No actual disk required (RAM-based)
 ✅ Fast execution ⚡
 ✅ Helps in OS & System Programming learning
 ✅ Simulates real-world file system behavior
 
-🔮 Future Enhancements
+🔮 Future Enhancements :
 
 🌐 Add GUI interface (like file explorer)
 💾 Add disk-based persistence
@@ -119,7 +119,7 @@ File information
 📦 Support directories (folders)
 🧵 Multi-threading support
 
-📌 Conclusion
+📌 Conclusion :
 
 🎯 The Customised Virtual File System project is a powerful educational tool that demonstrates how real operating systems manage files internally.
 

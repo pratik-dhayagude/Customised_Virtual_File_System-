@@ -1,6 +1,6 @@
 💻 📁 Customised Virtual File System (CVFS)
 
-🌟 Project Description (GUI Emoji Style)
+🌟 Project Description 
 
 🖥️ Customised Virtual File System (CVFS) is a system-level project written in C language that simulates a Linux-like file system inside a program.
 
